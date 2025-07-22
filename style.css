@@ -33,6 +33,7 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
+/* shared */
 .dark-2{
     color: #474747;
 }
@@ -50,6 +51,9 @@ nav li a{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border: none;
+}
+.text-center{
+    text-align: center;
 }
 
 
@@ -101,6 +105,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .about{
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -109,7 +117,6 @@ main{
     -o-border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -117,4 +124,19 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+/* skill section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px  6px  50px  0px   rgba(0, 0, 0, 0.06);
+    /*XYBlurSpreadColor*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
