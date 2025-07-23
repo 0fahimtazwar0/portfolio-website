@@ -55,7 +55,12 @@ nav li a{
 .text-center{
     text-align: center;
 }
-
+.flex{
+    display: flex;
+}
+.block{
+    display: block;
+}
 
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -139,4 +144,59 @@ main section{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+/* resume section styles */
+.resume-conatiner{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.experience-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-2nd-btn{
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
